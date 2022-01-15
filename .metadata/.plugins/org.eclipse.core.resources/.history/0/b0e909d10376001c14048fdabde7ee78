@@ -1,0 +1,15 @@
+package jan15th;
+
+import java.util.Scanner;
+
+public class prac {
+	public static void main(String[] args) {
+		while(true) {
+			System.out.println("# 번호를 입력하시오.");
+			int inpNum;
+			Scanner sc = new Scanner(System.in);
+			inpNum = sc.nextInt();
+			System.out.println(inpNum);
+		}
+	}
+}
